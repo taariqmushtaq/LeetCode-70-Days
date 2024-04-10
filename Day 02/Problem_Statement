@@ -1,0 +1,17 @@
+<p1>In this problem, we have an array of numbers and a target number like 
+
+case 01;
+[2,3,4,6] with target 6 
+
+case 02:
+[3,2], with target 5 
+
+case 03:
+[1,2,7,5] with target 9
+
+So, we have to add the numbers to get the target, like in case 03, it will be the returned indexes array will be [1,2] because 2,7 are at 1 and 2 indexes.
+Output:
+
+case 01: return array [0,2] with target 6 because 2 and 4 are at 0,2 indexes.
+case 02: return array [0,1] with target 5 because 3 and 2 are at 0,1 indexes.
+case 03: return array [1,2] with target 9 because 2 and 7 are at 1,2 indexes. </p1>
