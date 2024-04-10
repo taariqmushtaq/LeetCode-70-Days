@@ -1,1 +1,14 @@
+This was a problem, in which we have two strings:
 
+(case 1)
+word1 = "abc"
+word2 = "pqr"
+
+(case 2)
+word1 = "sqts"
+word2 = "ab"
+
+Then we have to add them like :   ( " a p b q c r ") 1st case
+                                  ( " s a q b t s ") 2nd case
+
+size of both strings can vary, so we have to merge them, by appending. Good Luck.
