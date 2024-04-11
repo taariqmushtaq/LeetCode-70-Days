@@ -1,0 +1,1 @@
+#So in this problem the task was to check the integer given is palindrome or not, for example -121, 1, 10, 99, 121 etc, so we have to check the every condition, like 1 to 9 are palindrome, but 10 is not, also 0 is palindrome but not less than zero are palindrome, Best of luck.
