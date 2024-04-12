@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
 
-        size_t size = twoSum.size();
+        size_t size = nums.size();
         int sum =0;
         vector<int> indexes;
 
@@ -10,7 +10,7 @@ public:
         {
             for(int j=i+1; j<size; j++)
             {
-                sum = twoSum[i]+twoSum[j];
+                sum = nums[i]+nums[j];
                 if(sum == target)
                 {
                     indexes = {i,j};
