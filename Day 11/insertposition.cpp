@@ -50,7 +50,7 @@ public:
 int main()
 {
     Solution solution;
-    vector<int> nums = {1, 3, 5, 6, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16};
+    vector<int> nums = {1, 3, 5, 6};
     int target = 5;
     int index = solution.searchInsert(nums, target);
     cout << "Insert position for target " << target << " is: " << index << endl;
